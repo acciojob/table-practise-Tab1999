@@ -1,16 +1,54 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+		table {
+			background-color: yellow;
+			width: 50%;
+			text-align: center;
+			border-collapse: separate; /* Needed for border-spacing to work */
+			border-spacing: 5px; /* This is the cell spacing */
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+	<table>
+		<caption><b>Student Details</b></caption>
+		<thead>
+			<tr>
+				<th>NAME</th>
+				<th>AGE</th>
+				<th>BRANCH</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ali Khan</td>
+				<td>20</td>
+				<td>Computer Science</td>
+			</tr>
+			<tr>
+				<td>Priya Sharma</td>
+				<td>21</td>
+				<td>Mechanical</td>
+			</tr>
+			<tr>
+				<td>Rahul Verma</td>
+				<td>22</td>
+				<td>Electrical</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
